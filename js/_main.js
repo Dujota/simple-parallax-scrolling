@@ -1,3 +1,8 @@
+// Init Skrollr
+var s = skrollr.init();
+
+// Refresh Skrollr after resizing our sections
+s.refresh($('.homeSlide'));
 
 
 ( function( $ ) {
@@ -24,7 +29,7 @@
 
 		// Init Skrollr
 
-    var skrollr = skrollr.init();ß
+    // var skrollr = skrollr.init();
 
 		// Get window size
 	    winH = $window.height();
@@ -38,7 +43,7 @@
 	    $slide.height(winH);
 
 	    // Refresh Skrollr after resizing our sections
-	    skrollr.refresh($('homeSlide'));
+	    // skrollr.refresh($('homeSlide'));
 
 	}
 
